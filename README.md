@@ -2,36 +2,36 @@
 
 ## 01 Introduction du Cours (08:32)
 
-- 001 (3:41) Welcome to the Course.mp4 : Bienvenue au cours
-- 002 READ BEFORE YOU START.html : Liens vers les ressources
-- 003 (4:17) Setting up Our Tools.mp4 : Paramétrer ses outils
+- 001 Bienvenue au cours
+- 002 Liens vers les ressources
+- 003 Paramétrer ses outils
 
 ## 02 JavaScript - Les bases du langage, 1re partie 
 
 ### Introduction
 
-- 004 (0:54) Section Intro.mp4 
-- 005 Download the Code.html : Télécharger les fichiers de code sur gitHub (https://github.com/jonasschmedtmann/complete-javascript-course)
+- 004 Introduction
+- 005 Télécharger les fichiers de code sur gitHub (https://github.com/jonasschmedtmann/complete-javascript-course)
 
 ### Commençons à coder
 
-- 006 (5:50) Lets start coding.mp4 : Commençons à coder
-- 007 (4:39) A Brief Introduction to JavaScript.mp4 : Une brève introduction à javascript
+- 006 Commençons à coder
+- 007 Une brève introduction à javascript
 
 ### Variables et types de données
 
-- 008 (13:08) Variables and Data Types.mp4 : Variables et types de données
-- 009 (11:44) Variable Mutation and Type Coercion.mp4 : Mutation de variable et conversion de type
+- 008 Variables et types de données
+- 009 Mutation de variable et conversion de type
 
 ### Opérateurs et expressions
 
-- 010 (8:31) Basic Operators.mp4 : Les opérateurs de base
-- 011 (14:25) Operator Precedence.mp4 : Priorité des opérateurs
+- 010 Les opérateurs de base
+- 011 Priorité des opérateurs
 
 ### Premier challenge
 
-- 012 (2:01) Coding Challenge 1.mp4 : Premier challenge
-- 013 (4:40) Coding Challenge 1 Solution.mp4 : Solution
+- 012 Premier challenge
+- 013 Solution
 
 ## Sources et ressources
 
