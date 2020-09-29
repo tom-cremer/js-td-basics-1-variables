@@ -136,7 +136,7 @@ Les nombres servent à compter.
 
 Les opérations qu'on peut faire avec des valeurs de type nombre sont des opérations mathématiques, par exemple :
 
-<img src="img/03b-opérations-number.png" alt="opérations sur des nombres" width="500">
+<img src="img/03b-operations-number.png" alt="opérations sur des nombres" width="500">
 
 Ces opérations produisent un résultat de type nombre.
 
