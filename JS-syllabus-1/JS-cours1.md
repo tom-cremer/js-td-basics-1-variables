@@ -262,7 +262,7 @@ Par exemple, en ES5 :
 	
 ou, en ES6 :
 
-![Déclaration de variable](img/05-déclaration-variable.png)
+![Déclaration de variable](img/05-declaration-variable.png)
 
 N.B. Si la valeur de la variable n'est pas destinée à changer, on utilisera de préférence le mot-clé `const` pour déclarer une variable constante.
 
@@ -280,7 +280,7 @@ Pour donner une valeur à une variable, on utilise l'opérateur `=`, appelé op�
 
 La ligne `a = 3.14` se lit « a **reçoit** la valeur 3,14 ». À présent, la variable contient la valeur 3,14. 
 
-![L'opérateur d'affectation n'est pas l'opérateur d'égalité](img/07-affectation-égalité.png)
+![L'opérateur d'affectation n'est pas l'opérateur d'égalité](img/07-affectation-egalite.png)
 
 On peut également combiner déclaration et affectation de valeur en une seule ligne, on parle alors d'**initialisation** de variable (initialiser une variable = la déclarer et lui affecter une valeur en une seule ligne de code) :
 
@@ -400,7 +400,7 @@ Chaque opérateur a un niveau de priorité. Si le niveau de priorité d'un opér
 
 Voici la table qui reprend les niveaux de priorité des opérateurs en JS :
 
-![priorité des opérateurs](img/09-priorité-opérateurs.png)
+![priorité des opérateurs](img/09-priorite-operateurs.png)
 
 Par exemple, on voit que l'opérateur "Multiplcation" (`*`) a un niveau de priorité 14, alors que l'opérateur "Addition" (`+`) a un niveau de priorité 13. C'est donc l'opérateur `*` qui s'exécute d'abord, et puis ensuite l'opérateur `+`.
 
