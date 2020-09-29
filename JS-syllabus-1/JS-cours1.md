@@ -366,11 +366,11 @@ Il existe de nombreux opérateurs en JS : les opérateurs mathématiques, l'opé
 
 Nous les avons déjà vus : ils s'appliquent sur des données de type nombre et produisent un résultat de type nombre :
 
-<img src="img/03b-opérations-number.png" alt="opérations sur des nombres" width="500">
+<img src="img/03b-operations-number.png" alt="opérations sur des nombres" width="500">
 
 ##### Les principaux opérateurs de comparaison
 
-<img src="img/14-opérateurs-comparaison.png" alt="opérations sur des nombres" width="200">
+<img src="img/14-operateurs-comparaison.png" alt="opérations sur des nombres" width="200">
 
 Ils produisent un résultat de type boléen.
 
@@ -388,7 +388,7 @@ Par exemple :
 
 ##### Les opérateurs logiques
 
-<img src="img/15-logique-booléeenne.png" alt="opérations sur des nombres" width="500">
+<img src="img/15-logique-booleeenne.png" alt="opérations sur des nombres" width="500">
 
 ##### La priorité des opérateurs
 
@@ -513,13 +513,13 @@ Les mots-clés du langage JavaScript sont des noms réservés. Ils ne doivent pa
 
 Voici les mots réservés en JS :
 
-<img src="img/11b-mots-réservés.png" alt="Mots-clés actuels" width="250">
+<img src="img/11b-mots-reserves.png" alt="Mots-clés actuels" width="250">
 
 Vous les trouverez aussi dans la référence du MDN : 
 
-<img src="img/11-mots-réservés-actuels.png" alt="Mots-clés actuels" width="250">
+<img src="img/11-mots-reserves-actuels.png" alt="Mots-clés actuels" width="250">
 
-<img src="img/12-mots-réservés-futurs.png" alt="Mots-clés futurs" width="300">
+<img src="img/12-mots-reserves-futurs.png" alt="Mots-clés futurs" width="300">
 
 Notez que votre éditeur de texte préféré vous aide à les repérer grâce à la coloration syntaxique…
 
