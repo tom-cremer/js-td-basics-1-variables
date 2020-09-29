@@ -13,9 +13,20 @@ Basées notamment sur :
 
 ## Introduction à la programmation
 
-Un ordinateur est une machine qui se contente d'exécuter automatiquement, vite et sans erreur, les opérations qu'on lui demande d'effectuer.
+Un **ordinateur** est une machine qui se contente d'exécuter automatiquement, vite et sans erreur, les opérations qu'on lui demande d'effectuer.
 
 Un **programme** est une liste d'ordres, de commandes, indiquant à un ordinateur ce qu'il doit faire.
+
+Le rôle du programmeur (ou développeur) est de créer ces programmes.
+
+Pour cela, il peut utiliser différents langages de programmation : assembleur, Ptython, php, Java, C, C++, JavaScript, …
+
+Le langage de programmation définit la manière de donner les ordres à l'ordinateur. Tout langage a
+
+- son vocabulaire (un ensemble de mots-clés, chacun jouant un rôle spécifique) ;
+- sa grammaire (un ensemble de règles définissant la manière d'écrire des programmes dans ce langage).
+
+Chaque langage a sa propre syntaxe mais les concepts sont les mêmes dans tous les langages : variables, fonctions, boucles, tests, … 
 
 ![Code JS](img/00-code-js.png)
 
@@ -23,17 +34,16 @@ Chaque ligne de commande s'appelle une **instruction**.
 
 L'ensemble des instructions d'un programme est appelée son **code source**.
 
-Le rôle du programmeur (ou développeur) est de créer ces programmes.
+Pour être compris par l'ordinateur, le programme doit respecter les règles du langage de programmation utilisé.
 
-Pour cela, il peut utiliser différents langages de programmation : assembleur, Ptython, php, Java, C, C++, …
-
-Chaque langage a sa propre syntaxe mais les concepts sont les mêmes dans tous les langages : variables, fonctions, boucles, tests, … 
-
-Avant d'écrire un programme, il faut réfléchir et décomposer le problème à résoudre en opérations élémentaires afin d'aboutir à un algorithme.
 
 ### La notion d'algortithme
 
-On ne crée pas un programme en se lançant directement dans l'écriture du code source. Il faut d'abord analyser le problème pour trouver la suite d'opérations à réaliser pour le résoudre. 
+On ne crée pas un programme en se lançant directement dans l'écriture du code source.
+
+Avant d'écrire le programme, il faut analyser et décomposer le problème à résoudre en opérations élémentaires.
+
+**L'algorithme** est la suite des opérations à réaliser pour résoudre le problème. 
 
 Prenons un exemple tiré de la vie courante : je souhaite préparer un plat de pâtes. Quelles sont les étapes qui vont me permettre d'atteindre mon objectif ?
 
@@ -58,6 +68,12 @@ Un **algorithme** est une suite ordonnée d'opérations qui permet de résoudre 
 JavaScript est le langage de programmation du Web. Il a été inventé en 1995 par Brendan Eich, qui travaillait à l'époque pour la société *Netscape*, créatrice du premier navigateur Web populaire (l'ancêtre de Firefox). 
 
 L'idée de départ était de créer un langage simple pour rendre dynamiques et interactives les pages Web, qui étaient très simplistes à l'époque.
+
+Petit à petit, les créateurs de sites Web ont enrichi leurs pages en y ajoutant du code écrit en JavaScript. Ce langage a donc été progressivement intégré à l'ensemble des navigateurs Web, qui sont tous capables aujourd'hui d'exécuter du code JavaScript.
+
+L'avènement du Web 2.0, basés sur des pages riches et interactive a rendu JavaScript de plus en plus populaire. Les concepteurs de navigateurs Web ont optimisé la rapidité d'exécution du code JavaScript, jusqu'à en faire un langage très performant. Cela a conduit à l'apparition en 2009 de la plate-forme Node.js, qui permet d'écrire en JavaScript des applications Web très rapides. Par l'intermédiaire de MongoDB, JavaScript a même pénétré le monde des bases de données (les logiciels qui ont pour rôle de stocker des informations de manière fiable et durable).
+
+Enfin, l'arrivée des smartphones et autres tablettes dotés de systèmes différents et incompatibles (iOS, Android ou Windows Phone) a conduit à l'apparition d'outils de développement dits multi-plateformes. Ils permettent d'écrire en une seule fois des applications mobiles compatibles avec l'ensemble des terminaux du marché. Ces outils sont presque toujours basés sur... JavaScript !
 
 ### JavaScript : un langage essentiel
 
@@ -84,9 +100,19 @@ Pour suivre ce cours, vous devez disposer d'un navigateur web moderne comme Fire
 
 C'est le moment de faire vos premiers pas avec JavaScript ! Voici votre tout premier programme.
 
+Afficher un texte à l'écran (le fameux "Hello World" bien connu des programmeurs) est souvent la première chose que l'on apprend à faire lorsqu'on découvre un nouveau langage. 
+
 `console.log("Hello, World !");`
 
+Pour le tester, il vous suffit de taper les instructions dans la console JavaScript de votre navigateur web.
+
 L'instruction JavaScript `console.log()` permet d'afficher une information dans la console javascript d'un navigateur.
+
+N.B. Il existe d'autres possibilités pour tester du code JavaScript :
+
+* Utiliser un "bac à sable" en ligne, comme par exemple CodePen ;
+* Installer la plate-forme Node.js sur votre ordinateur.
+
 
 ### Valeurs et types
 
@@ -138,11 +164,21 @@ Ces valeurs sont délimitées par une paire de guillemets simples ou doubles :
 
 On ne peut pas additionner ou soustraire des valeurs de type chaîne comme on peut le faire avec des nombres.
 
-Mais on peut appliquet l'opérateur `+` à deux valeurs de type chaîne. Appliqué à deux chaînes, l'opérateur `+`  fusionne les deux chaînes en une seule. Cette opération est appelée **concaténation**. 
+Mais on peut appliquer l'opérateur `+` à deux valeurs de type chaîne. Appliqué à deux chaînes, l'opérateur `+`  fusionne les deux chaînes en une seule. Cette opération est appelée **concaténation**. 
 
 Par exemple :
 
 `"Bon"+"jour"` produit le résultat  "Bonjour".
+
+N.B. Il est également possible de délimiter une chaîne de caractères avec une paire de guillemets simples :
+
+`'Ceci est aussi une chaîne'`
+
+Par convention, nous emploierons les guillemets doubles dans ce cours. L'important est d'être cohérent : utilisez l'une ou l'autre notation, mais ne mélangez pas les deux.
+
+Il ne faut surtout pas oublier de "fermer" une chaîne : simples ou doubles, les guillemets vont toujours par deux !
+
+Pour inclure dans une chaîne certains caractères spéciaux, on utilise le caractère `\` (qui se prononce "antislash" ou "backslash" en anglais) qui donne un sens particulier au caractère suivant. Par exemple, `\n` permet d'ajouter un retour à la ligne dans une chaîne.
 
 #### Le type booléen
 
@@ -150,7 +186,7 @@ Le type **booléen** (*Boolean* en anglais) est un type de données logique qui 
 
 #### Le type undefined
 
-Le type **`undefined`** est le type attribué à une varibale qui ne possède pas encore de valeur. 
+Le type **`undefined`** est le type attribué à une variable qui ne possède pas encore de valeur. 
 
 #### Le type null
 
@@ -190,7 +226,7 @@ En JS, on délimite les commentaires soit par // … pour commentaer une ligne, 
 
 ![commentaires](img/04-commentaires.png)
 
-## Les variables
+## Jouez avec les variables
 
 ### La notion de variable
 
@@ -216,7 +252,7 @@ Avant de pouvoir stocker des informations dans une variable, il faut la créer.
 
 Cette opération (créer la variable) s'appelle la **déclaration** de la variable.
 
-Au niveau de l'ordinateur, quand on déclare une variable, on réserve en fait une zone dans la mémoire de l'ordianteur qui va être attribuée à cette variable. 
+Au niveau de l'ordinateur, quand on déclare une variable, on réserve en fait une zone dans la mémoire de l'ordinateur qui va être attribuée à cette variable. 
 
 On déclare une variable JavaScript avec le mot-clé `var` (ou, en ES6, le mot-clé `let`) suivi du nom de la variable.
 

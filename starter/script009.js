@@ -14,7 +14,7 @@
 // 3. Déclarer en une seule instruction les varaibles job et isMarried
 // puis affecter la valeur professeur à job et false à isMarried
 // enfin, écrire l'instruction qui affiche
-// "John est un professeur de 28 ans. est-il marié ? false"
+// "John est un professeur de 28 ans. Est-il marié ? false"
 
 
 // Variable mutation
