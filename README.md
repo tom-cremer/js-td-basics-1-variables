@@ -1,6 +1,6 @@
 # Javascript - cours 1
 
-## Cours "Apprenez à coder avec JavaScript" sur Openclassroom
+## Cours « Apprenez à coder avec JavaScript » sur Openclassroom
 
 ### Partie 1 - Écrivez vos premières lignes de code
 
@@ -76,7 +76,8 @@
 
 ### Sources principales
 
-- Notes écrites (en français) : [Apprenez à coder avec JavaScript - sur OPENCLASSROOMS](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript), tutoriel d'OPENCLASSROOMS par _Baptiste Pesquet_ (en français, 20 heures, facile) consacré aux bases du langage ;
+- La référence de base pour ce cours-ci : Notes écrites (en français) : [Apprenez à coder avec JavaScript - sur OPENCLASSROOMS](https://openclassrooms.com/fr/courses/2984401-apprenez-a-coder-avec-javascript), tutoriel d’OPENCLASSROOMS par _Baptiste Pesquet_ (en français, 20 heures, facile) consacré aux bases du langage ;
+- N.B. Un nouveau cours existe sur OPENCLASSROOMS par _Will Alexander_, [Apprenez à programmer avec JavaScript](https://openclassrooms.com/fr/courses/6175841-apprenez-a-programmer-avec-javascript) (en français, 15 heures, facile), à ne pas confondre avec le précédent (il peut être intéressant, mais ce n’est pas le même et ce n’est pas lui la source principale donnt je me suis inspirée pour ce cours) ;
 - Vidéos et exercices (en anglais) : [The Complete JavaScript Course 2019: Build Real Projects! sur Udemy](https://www.udemy.com/course/the-complete-javascript-course/) par _Jonas Schmedtmann_ (2019, 28h), sur [Udemy](https://www.udemy.com) (Udemy is an online learning and teaching marketplace with over 100000 courses and 24 million students) ;
 - Livre : [JavaScript pour les web designers](https://www.eyrolles.com/Informatique/Livre/javascript-pour-les-web-designers-9782212674088/), Mat Marquis, Collection *A Book Apart* n°20, Éd. Eyrolles.
 
@@ -89,5 +90,8 @@
 - [Udemy : Page de ressources de Jonas](http://codingheroes.io/resources/) ;
 - [Udemy : Page de présentation de Jonas Schmedtmann sur Udemy](https://www.udemy.com/user/jonasschmedtmann/) ;
 - [La référence JavaScript par le MDN](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference) ;
-- [Mots réservés en JavaScript, sur le MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Mots_r%C3%A9serv%C3%A9s)
+- [Mots réservés en JavaScript, sur le MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Mots_r%C3%A9serv%C3%A9s) ;
+- [Table des priorités des opérateurs en JavaScript, sur le MDN](https://developer.mozilla.org/fr/docs/Web/JavaScript/Reference/Op%C3%A9rateurs/Pr%C3%A9c%C3%A9dence_des_op%C3%A9rateurs)
+
+N.B. [MDN](https://developer.mozilla.org/fr/) (*Mozilla Developer Network*) est un site internet hébergé par la fondation Mozilla qui rassemble la documentation sur les technologies du web (HTML, CSS , JavaScript, …). À côté du [W3C](https://www.w3.org/), c’est la référence pour les technologies de base du Web, et particulièrement JavaScript, mais ATTENTION, à condition de bien se référer à la documetation *en anglais*, celle en français n’étant pas toujours fiable.
 
