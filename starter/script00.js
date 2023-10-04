@@ -6,9 +6,3 @@ console.log("Hello, World !");
 
 
 
-
-
-
-
-
-
