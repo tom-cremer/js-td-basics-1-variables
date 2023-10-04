@@ -20,4 +20,17 @@ Mark est plus élevé que celui de John ? true").
 BONNE CHANCE 😀
 */
 
+let poidsMark, poidsJohn, tailleMark, tailleJohn, bmiMark, bmiJohn, isGreater;
 
+poidsMark = prompt('Quel est votre poids mark? (En KG)');
+poidsJohn = prompt('Quel est votre poids John? (En KG)');
+
+tailleMark = prompt('Quel est votre taille Mark? (En Mètres)');
+tailleJohn = prompt('Quel est votre taille John? (En Mètres)');
+
+bmiMark = poidsMark / tailleMark**2;
+bmiJohn = poidsJohn / tailleJohn**2;
+
+isGreater = (bmiMark > bmiJohn);
+
+console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isGreater}`)
