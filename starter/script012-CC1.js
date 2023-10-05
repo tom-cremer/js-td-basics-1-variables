@@ -33,4 +33,4 @@ bmiJohn = poidsJohn / tailleJohn**2;
 
 isGreater = (bmiMark > bmiJohn);
 
-console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isGreater}`)
+console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isGreater}`);

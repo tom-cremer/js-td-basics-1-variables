@@ -13,5 +13,25 @@ avec les valeurs 4 et 5 selon qu'elles sont de type nombre ou de type chaîne  :
 	* quel est le résulat de l'opération ?
 - que se passe-t-il si on entoure toute l'expression (VALEUR OPÉRANDE VALEUR) de guillemets ? Pourquoi ?
 */
+// Definition des variables
+let nombre, nombre1;
+
+// 1
+nombre = 4; nombre1 = 5;
+console.log(nombre + nombre1);
+
+//2
+nombre = '4'; nombre1 = '5';
+console.log(nombre + nombre1);
+
+//3
+nombre = '4'; nombre1 = 5;
+console.log(nombre + nombre1);
+
+//4
+console.log('nombre + nombre1');
+
+
+
 
 
