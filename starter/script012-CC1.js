@@ -34,3 +34,12 @@ bmiJohn = poidsJohn / tailleJohn**2;
 isGreater = (bmiMark > bmiJohn);
 
 console.log(`Est-ce que le BMI de Mark est plus élevé que celui de John ? ${isGreater}`);
+
+if(isGreater) {
+    console.log(`Le bmi de mark (${bmiMark}) est supérieur à celui de John (${bmiJohn}) ?`);
+} else if (bmiMark === bmiJohn){
+    console.log(`Le bmi de mark (${bmiMark}) est inférieur à celui de John (${bmiJohn}) ?`);
+} else {
+    console.log(`Le bmi de mark (${bmiMark}) est inférieur à celui de John (${bmiJohn}) ?`);
+}
+
